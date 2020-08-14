@@ -1,16 +1,13 @@
-### Hi there 👋
+### Привет, Я Дамир Лутфрахманов👋
 
-<!--
-**DamirLut/DamirLut** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Я геймдевер, и чутка веб разработчик!
+- ⚡ Делаю игры на 𝔾𝕒𝕞𝕖 𝕄𝕒𝕜𝕖𝕣: 𝕊𝕥𝕦𝕕𝕚𝕠 1 и 2 версии
 
-Here are some ideas to get you started:
+### Свзясь со мной:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[<img align="left" alt="Вк" width="22px" src="https://image.flaticon.com/icons/svg/25/25684.svg" />]https://vk.com/damirlut
+
+<br />
+
+<br />
+<br />
