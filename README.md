@@ -9,6 +9,21 @@
 
 <br />
 
+### Статистика
+<table>
+  <tr>
+    <td align="center" style="padding=0;width=50%;">
+      <img align="center" style="padding=0;" src="https://github-readme-stats.vercel.app/api?username=damirlut&hide=issues&count_private=true&include_all_commits=true&line_height=40" />
+    </td>
+    <td align="center" style="padding=0;width=50%;">
+      <img align="center" style="padding=0;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=damirlut&hide=html,yacc" />
+    </td>
+  </tr>
+</table>
+
+<img src="https://gpvc.arturio.dev/damirlut"/>
+
+
 ### Языки программирование и инструменты:
 [<img align="left" alt="Game Maker Studio" width="26px" src="https://img.icons8.com/nolan/64/game-maker.png">][gamemaker]
 [<img align="left" alt="Python" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png">][web]
