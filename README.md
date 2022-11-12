@@ -1,30 +1,21 @@
-### Привет, Я Дамир Лутфрахманов👋
+<p align='center'>
+  <img src="out.svg"/><br>
+  <img src="https://profile-counter.glitch.me/damirlut/count.svg" />
+</p>
 
-## Я геймдевер, нетворкер и веб разработчик!
-- Делаю игры на 𝔾𝕒𝕞𝕖 𝕄𝕒𝕜𝕖𝕣: 𝕊𝕥𝕦𝕕𝕚𝕠 2 версии 
-- Делаю веб сайты и приложении
-- Делаю Backend сервисы и серверы
+# DamirLut
 
-<br />
+### SKILLS & TOOLS
 
-## Изученные языки
-- C#, так же в процессе изучение Unity
-- JavaScript/TypeScript, активно использую технологии React, React-Native, Svelte. 
-- Python
+#### Code
 
+![](https://img.shields.io/badge/Lang-TypeScript-informational?style=flat&logo=TypeScript&color=4392ff)
+![](https://img.shields.io/badge/Lang-JavaScript-informational?style=flat&logo=JavaScript&color=fff85e)
+![](https://img.shields.io/badge/Lang-CSharp-informational?style=flat&logo=CSharp&color=a442f5)
 
-<br />
+#### Stack
 
-### Статистика
-<table>
-  <tr>
-    <td align="center" style="padding=0;width=50%;">
-      <img align="center" style="padding=0;" src="https://github-readme-stats.vercel.app/api?username=damirlut&hide=issues&count_private=true&include_all_commits=true&line_height=40" />
-    </td>
-    <td align="center" style="padding=0;width=50%;">
-      <img align="center" style="padding=0;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=damirlut&hide=html,yacc" />
-    </td>
-  </tr>
-</table>
+![](https://img.shields.io/badge/Backend-Node.js-informational?style=flat&logo=Node.js&logoColor=white&color=2eadc9)
+![](https://img.shields.io/badge/Backend-Nest.js-informational?style=flat&logo=javascript&logoColor=white&color=2eadc9)
 
-<img src="https://gpvc.arturio.dev/damirlut"/>
+![](https://img.shields.io/badge/Frontend-React-informational?style=flat&logo=React&logoColor=white&color=2bbc8a)
