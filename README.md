@@ -1,6 +1,6 @@
 <p align='center'>
   <img src="out.svg"/><br>
-  <img src="https://profile-counter.glitch.me/damirlut/count.svg" />
+  <img src="https://github-counter.iky.su/DamirLut?default=7" />
 </p>
 
 # DamirLut
