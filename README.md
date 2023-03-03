@@ -1,6 +1,6 @@
 <p align='center'>
   <img src="out.svg"/><br>
-  <img src="https://nya-counter.ikysu.workers.dev/damirlut" />
+  <img src="https://counter.iky.su/damirlut.image?default=7" />
 </p>
 
 # DamirLut
