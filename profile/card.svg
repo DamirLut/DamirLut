@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" fill="none">
+  <defs>
+    <clipPath id="terminal-body">
+      <rect width="958" height="358" x="1" y="1" rx="21"/>
+    </clipPath>
+    <clipPath id="glitch-slice-a">
+      <path d="M26 111h908v20H26zm0 128h908v16H26z"/>
+    </clipPath>
+    <clipPath id="glitch-slice-b">
+      <path d="M26 162h908v18H26zm0 142h908v16H26z"/>
+    </clipPath>
+    <linearGradient id="bg" x1="0" x2="960" y1="0" y2="360">
+      <stop stop-color="#070a0f"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur result="blur" stdDeviation="3"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      @keyframes blink{50%{opacity:0}}@keyframes glitchCyan{0%,31%,75%,to{opacity:.13;transform:translate(5px,-2px)}12%{opacity:.18;transform:translate(3px,1px)}25%{opacity:.42;transform:translate(8px,-3px)}30%{opacity:.42;transform:translate(4px,2px)}53%{opacity:.16;transform:translate(6px,1px)}68%{opacity:.3;transform:translate(-3px,-2px)}74%{opacity:.3;transform:translate(7px,3px)}}@keyframes glitchRed{0%,45%,87%,to{opacity:.13;transform:translate(-5px,2px)}18%{opacity:.17;transform:translate(-7px,-1px)}40%{opacity:.36;transform:translate(-8px,3px)}44%{opacity:.36;transform:translate(-4px,-2px)}62%{opacity:.16;transform:translate(-3px,1px)}82%{opacity:.26;transform:translate(4px,2px)}86%{opacity:.26;transform:translate(-7px,-3px)}}.label{font:700 15px ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,&quot;Liberation Mono&quot;,monospace;fill:#22c55e}.text{font:500 15px ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,&quot;Liberation Mono&quot;,monospace;fill:#cbd5e1}.glitch-cyan .label,.glitch-cyan .prompt,.glitch-cyan .text,.prompt{fill:#38bdf8}.cursor{animation:blink 1s steps(1) infinite}.glitch{opacity:.13;pointer-events:none;transform-box:fill-box;transform-origin:center}.glitch-red .label,.glitch-red .prompt,.glitch-red .text{fill:#f43f5e}
+    </style>
+  </defs>
+  <rect width="960" height="360" fill="url(#bg)" rx="22"/>
+  <g clip-path="url(#terminal-body)" style="opacity:.08">
+    <path fill="#fff" d="M0 0h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0zm0 8h960v1H0z"/>
+  </g>
+  <rect width="958" height="358" x="1" y="1" stroke="#1f2937" rx="21"/>
+  <circle cx="30" cy="30" r="6" fill="#ef4444"/>
+  <circle cx="52" cy="30" r="6" fill="#f59e0b"/>
+  <circle cx="74" cy="30" r="6" fill="#22c55e"/>
+  <text x="30" y="66" style="font:700 28px ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,&quot;Liberation Mono&quot;,monospace;fill:#e5e7eb">DamirLut</text>
+  <text x="178" y="66" style="font:500 14px ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,&quot;Liberation Mono&quot;,monospace;fill:#6b7280">/ fullstack engineer / realtime systems / game backend</text>
+  <g filter="url(#glow)">
+    <text x="30" y="92" class="text">
+      <tspan class="prompt">$</tspan>
+      <tspan> </tspan>
+      <tspan class="label">[boot]</tspan>
+      <tspan> DamirLut profile initialized</tspan>
+    </text>
+    <text x="30" y="118" class="text">
+      <tspan class="prompt">$</tspan>
+      <tspan> </tspan>
+      <tspan class="label">[stack]</tspan>
+      <tspan> TypeScript • Bun • Go • React • Svelte</tspan>
+    </text>
+    <text x="30" y="144" class="text">
+      <tspan class="prompt">$</tspan>
+      <tspan> </tspan>
+      <tspan class="label">[backend]</tspan>
+      <tspan> Fastify • NestJS • PostgreSQL • Redis • MongoDB</tspan>
+    </text>
+    <text x="30" y="170" class="text">
+      <tspan class="prompt">$</tspan>
+      <tspan> </tspan>
+      <tspan class="label">[frontend]</tspan>
+      <tspan> React UI libraries • Svelte apps • PixiJS rendering</tspan>
+    </text>
+    <text x="30" y="196" class="text">
+      <tspan class="prompt">$</tspan>
+      <tspan> </tspan>
+      <tspan class="label">[mini-apps]</tspan>
+      <tspan> Fullstack apps for VK Mini Apps &amp; Telegram Mini Apps</tspan>
+    </text>
+    <text x="30" y="222" class="text">
+      <tspan class="prompt">$</tspan>
+      <tspan> </tspan>
+      <tspan class="label">[games]</tspan>
+      <tspan> Realtime multiplayer • WebSocket systems • game backends</tspan>
+    </text>
+    <text x="30" y="248" class="text">
+      <tspan class="prompt">$</tspan>
+      <tspan> </tspan>
+      <tspan class="label">[tools]</tspan>
+      <tspan> GameMaker + Haxe tooling • editor plugins • DX systems</tspan>
+    </text>
+    <text x="30" y="274" class="text">
+      <tspan class="prompt">$</tspan>
+      <tspan> </tspan>
+      <tspan class="label">[infra]</tspan>
+      <tspan> Docker • Nginx • CI/CD • monitoring • self-hosted services</tspan>
+    </text>
+    <text x="30" y="312" class="text">
+      <tspan class="prompt">❯</tspan>
+      <tspan> open </tspan>
+      <tspan class="label">https://damirlut.dev</tspan>
+      <tspan class="cursor">_</tspan>
+    </text>
+  </g>
+  <g class="glitch glitch-cyan" clip-path="url(#glitch-slice-a)" style="animation:glitchCyan 3.4s steps(1) infinite">
+    <text x="30" y="92" class="text">
+      <tspan class="prompt">$</tspan>
+      <tspan> </tspan>
+      <tspan class="label">[boot]</tspan>
+      <tspan> DamirLut profile initialized</tspan>
+    </text>
+    <text x="30" y="118" class="text">
+      <tspan class="prompt">$</tspan>
+      <tspan> </tspan>
+      <tspan class="label">[stack]</tspan>
+      <tspan> TypeScript • Bun • Go • React • Svelte</tspan>
+    </text>
+    <text x="30" y="144" class="text">
+      <tspan class="prompt">$</tspan>
+      <tspan> </tspan>
+      <tspan class="label">[backend]</tspan>
+      <tspan> Fastify • NestJS • PostgreSQL • Redis • MongoDB</tspan>
+    </text>
+    <text x="30" y="170" class="text">
+      <tspan class="prompt">$</tspan>
+      <tspan> </tspan>
+      <tspan class="label">[frontend]</tspan>
+      <tspan> React UI libraries • Svelte apps • PixiJS rendering</tspan>
+    </text>
+    <text x="30" y="196" class="text">
+      <tspan class="prompt">$</tspan>
+      <tspan> </tspan>
+      <tspan class="label">[mini-apps]</tspan>
+      <tspan> Fullstack apps for VK Mini Apps &amp; Telegram Mini Apps</tspan>
+    </text>
+    <text x="30" y="222" class="text">
+      <tspan class="prompt">$</tspan>
+      <tspan> </tspan>
+      <tspan class="label">[games]</tspan>
+      <tspan> Realtime multiplayer • WebSocket systems • game backends</tspan>
+    </text>
+    <text x="30" y="248" class="text">
+      <tspan class="prompt">$</tspan>
+      <tspan> </tspan>
+      <tspan class="label">[tools]</tspan>
+      <tspan> GameMaker + Haxe tooling • editor plugins • DX systems</tspan>
+    </text>
+    <text x="30" y="274" class="text">
+      <tspan class="prompt">$</tspan>
+      <tspan> </tspan>
+      <tspan class="label">[infra]</tspan>
+      <tspan> Docker • Nginx • CI/CD • monitoring • self-hosted services</tspan>
+    </text>
+    <text x="30" y="312" class="text">
+      <tspan class="prompt">❯</tspan>
+      <tspan> open </tspan>
+      <tspan class="label">https://damirlut.dev</tspan>
+      <tspan class="cursor">_</tspan>
+    </text>
+  </g>
+  <g class="glitch glitch-red" clip-path="url(#glitch-slice-b)" style="animation:glitchRed 4.1s steps(1) infinite">
+    <text x="30" y="92" class="text">
+      <tspan class="prompt">$</tspan>
+      <tspan> </tspan>
+      <tspan class="label">[boot]</tspan>
+      <tspan> DamirLut profile initialized</tspan>
+    </text>
+    <text x="30" y="118" class="text">
+      <tspan class="prompt">$</tspan>
+      <tspan> </tspan>
+      <tspan class="label">[stack]</tspan>
+      <tspan> TypeScript • Bun • Go • React • Svelte</tspan>
+    </text>
+    <text x="30" y="144" class="text">
+      <tspan class="prompt">$</tspan>
+      <tspan> </tspan>
+      <tspan class="label">[backend]</tspan>
+      <tspan> Fastify • NestJS • PostgreSQL • Redis • MongoDB</tspan>
+    </text>
+    <text x="30" y="170" class="text">
+      <tspan class="prompt">$</tspan>
+      <tspan> </tspan>
+      <tspan class="label">[frontend]</tspan>
+      <tspan> React UI libraries • Svelte apps • PixiJS rendering</tspan>
+    </text>
+    <text x="30" y="196" class="text">
+      <tspan class="prompt">$</tspan>
+      <tspan> </tspan>
+      <tspan class="label">[mini-apps]</tspan>
+      <tspan> Fullstack apps for VK Mini Apps &amp; Telegram Mini Apps</tspan>
+    </text>
+    <text x="30" y="222" class="text">
+      <tspan class="prompt">$</tspan>
+      <tspan> </tspan>
+      <tspan class="label">[games]</tspan>
+      <tspan> Realtime multiplayer • WebSocket systems • game backends</tspan>
+    </text>
+    <text x="30" y="248" class="text">
+      <tspan class="prompt">$</tspan>
+      <tspan> </tspan>
+      <tspan class="label">[tools]</tspan>
+      <tspan> GameMaker + Haxe tooling • editor plugins • DX systems</tspan>
+    </text>
+    <text x="30" y="274" class="text">
+      <tspan class="prompt">$</tspan>
+      <tspan> </tspan>
+      <tspan class="label">[infra]</tspan>
+      <tspan> Docker • Nginx • CI/CD • monitoring • self-hosted services</tspan>
+    </text>
+    <text x="30" y="312" class="text">
+      <tspan class="prompt">❯</tspan>
+      <tspan> open </tspan>
+      <tspan class="label">https://damirlut.dev</tspan>
+      <tspan class="cursor">_</tspan>
+    </text>
+  </g>
+</svg>

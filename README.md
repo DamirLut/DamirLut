@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="out.svg" width="100%" />
+  <img src="./profile/card.svg" width="100%" />
 </p>
 
 <p align="center">
