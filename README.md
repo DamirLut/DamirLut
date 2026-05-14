@@ -85,9 +85,6 @@
 
 <p align="center">
   <img src="./profile/stats.svg" />
-</p>
-
-<p align="center">
   <img src="https://streak-stats.demolab.com?user=DamirLut&theme=aura" />
 </p>
 
