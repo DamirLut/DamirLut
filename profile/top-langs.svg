@@ -1,15 +1,15 @@
 
       <svg
-        width="450"
-        height="195"
-        viewBox="0 0 450 195"
+        width="300"
+        height="165"
+        viewBox="0 0 300 165"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Damir Lutfrakhmanov's GitHub Stats, Rank: B-</title>
-        <desc id="descId">Total Stars Earned: 34, Total Commits  : 619, Total PRs: 9, Total Issues: 2, Contributed to (last year): 3</desc>
+        <title id="titleId"></title>
+        <desc id="descId"></desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -21,6 +21,22 @@
             .header { font-size: 15.5px; }
           }
           
+    @keyframes slideInAnimation {
+      from {
+        width: 0;
+      }
+      to {
+        width: calc(100%-100px);
+      }
+    }
+    @keyframes growWidthAnimation {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
     .stat {
       font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #61ffca;
     }
@@ -28,56 +44,22 @@
       /* Selector detects Firefox */
       .stat { font-size:12px; }
     }
+    .bold { font-weight: 700 }
+    .lang-name {
+      font: 400 11px "Segoe UI", Ubuntu, Sans-Serif;
+      fill: #61ffca;
+    }
     .stagger {
       opacity: 0;
       animation: fadeInAnimation 0.3s ease-in-out forwards;
     }
-    .rank-text {
-      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #61ffca;
-      animation: scaleInAnimation 0.3s ease-in-out forwards;
+    #rect-mask rect{
+      animation: slideInAnimation 1s ease-in-out forwards;
     }
-    .rank-percentile-header {
-      font-size: 14px;
-    }
-    .rank-percentile-text {
-      font-size: 16px;
+    .lang-progress{
+      animation: growWidthAnimation 0.6s ease-in-out forwards;
     }
     
-    .not_bold { font-weight: 400 }
-    .bold { font-weight: 700 }
-    .icon {
-      fill: #ffca85;
-      display: none;
-    }
-
-    .rank-circle-rim {
-      stroke: #a277ff;
-      fill: none;
-      stroke-width: 6;
-      opacity: 0.2;
-    }
-    .rank-circle {
-      stroke: #a277ff;
-      stroke-dasharray: 250;
-      fill: none;
-      stroke-width: 6;
-      stroke-linecap: round;
-      opacity: 0.8;
-      transform-origin: -10px 8px;
-      transform: rotate(-90deg);
-      animation: rankAnimation 1s forwards ease-in-out;
-    }
-    
-    @keyframes rankAnimation {
-      from {
-        stroke-dashoffset: 251.32741228718345;
-      }
-      to {
-        stroke-dashoffset: 183.33399960764825;
-      }
-    }
-  
-  
 
           
       /* Animations */
@@ -110,7 +92,7 @@
           rx="4.5"
           height="99%"
           stroke="#e4e2e2"
-          width="449"
+          width="299"
           fill="#15141b"
           stroke-opacity="1"
         />
@@ -126,7 +108,7 @@
         y="0"
         class="header"
         data-testid="header"
-      >Damir Lutfrakhmanov's GitHub Stats</text>
+      >Most Used Languages</text>
     </g>
       </g>
     
@@ -136,75 +118,120 @@
           transform="translate(0, 55)"
         >
           
-    <g data-testid="rank-circle"
-          transform="translate(365, 47.5)">
-        <circle class="rank-circle-rim" cx="-10" cy="8" r="40" />
-        <circle class="rank-circle" cx="-10" cy="8" r="40" />
-        <g class="rank-text">
-          
-        <text x="-5" y="3" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" data-testid="level-rank-icon">
-          B-
-        </text>
+    <svg data-testid="lang-items" x="25">
       
-        </g>
-      </g>
-    <svg x="0" y="0">
-      <g transform="translate(0, 0)">
-    <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">
+  
+      <mask id="rect-mask">
+          <rect x="0" y="0" width="250" height="8" fill="white" rx="5"/>
+        </mask>
+        
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="0"
+          y="0"
+          width="169.77"
+          height="8"
+          fill="#3178c6"
+        />
       
-      <text class="stat  bold"  y="12.5">Total Stars Earned:</text>
-      <text
-        class="stat  bold"
-        x="199.01"
-        y="12.5"
-        data-testid="stars"
-      >34</text>
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="169.77"
+          y="0"
+          width="26.56"
+          height="8"
+          fill="#71b417"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="196.33"
+          y="0"
+          width="21.65"
+          height="8"
+          fill="#f1e05a"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="217.98000000000002"
+          y="0"
+          width="17.32"
+          height="8"
+          fill="#c6538c"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="235.3"
+          y="0"
+          width="18.619999999999997"
+          height="8"
+          fill="#A97BFF"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="243.92000000000002"
+          y="0"
+          width="16.06"
+          height="8"
+          fill="#00ADD8"
+        />
+      
+      
+    <g transform="translate(0, 25)">
+      <g transform="translate(0, 0)"><g transform="translate(0, 0)">
+    <g class="stagger" style="animation-delay: 450ms">
+      <circle cx="5" cy="6" r="5" fill="#3178c6" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        TypeScript 67.91%
+      </text>
     </g>
   </g><g transform="translate(0, 25)">
-    <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
-      
-      <text class="stat  bold"  y="12.5">Total Commits:</text>
-      <text
-        class="stat  bold"
-        x="199.01"
-        y="12.5"
-        data-testid="commits"
-      >619</text>
+    <g class="stagger" style="animation-delay: 600ms">
+      <circle cx="5" cy="6" r="5" fill="#71b417" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        Game Maker Language 10.63%
+      </text>
     </g>
   </g><g transform="translate(0, 50)">
-    <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
-      
-      <text class="stat  bold"  y="12.5">Total PRs:</text>
-      <text
-        class="stat  bold"
-        x="199.01"
-        y="12.5"
-        data-testid="prs"
-      >9</text>
+    <g class="stagger" style="animation-delay: 750ms">
+      <circle cx="5" cy="6" r="5" fill="#f1e05a" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        JavaScript 8.66%
+      </text>
     </g>
-  </g><g transform="translate(0, 75)">
-    <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
-      
-      <text class="stat  bold"  y="12.5">Total Issues:</text>
-      <text
-        class="stat  bold"
-        x="199.01"
-        y="12.5"
-        data-testid="issues"
-      >2</text>
+  </g></g><g transform="translate(175.7015625, 0)"><g transform="translate(0, 0)">
+    <g class="stagger" style="animation-delay: 450ms">
+      <circle cx="5" cy="6" r="5" fill="#c6538c" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        SCSS 6.93%
+      </text>
     </g>
-  </g><g transform="translate(0, 100)">
-    <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
-      
-      <text class="stat  bold"  y="12.5">Contributed to (last year):</text>
-      <text
-        class="stat  bold"
-        x="199.01"
-        y="12.5"
-        data-testid="contribs"
-      >3</text>
+  </g><g transform="translate(0, 25)">
+    <g class="stagger" style="animation-delay: 600ms">
+      <circle cx="5" cy="6" r="5" fill="#A97BFF" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        Kotlin 3.45%
+      </text>
     </g>
-  </g>
+  </g><g transform="translate(0, 50)">
+    <g class="stagger" style="animation-delay: 750ms">
+      <circle cx="5" cy="6" r="5" fill="#00ADD8" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        Go 2.43%
+      </text>
+    </g>
+  </g></g>
+    </g>
+  
     </svg>
   
         </g>
