@@ -130,7 +130,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="132.83"
+          width="132.67"
           height="8"
           fill="#f1e05a"
         />
@@ -138,9 +138,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="132.83"
+          x="132.67"
           y="0"
-          width="75.43"
+          width="75.47"
           height="8"
           fill="#71b417"
         />
@@ -148,9 +148,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="208.26000000000002"
+          x="208.14"
           y="0"
-          width="20.35"
+          width="20.34"
           height="8"
           fill="#3178c6"
         />
@@ -158,9 +158,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="228.61"
+          x="228.48"
           y="0"
-          width="12.53"
+          width="12.51"
           height="8"
           fill="#4B6C4B"
         />
@@ -168,9 +168,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="241.14000000000001"
+          x="240.98999999999998"
           y="0"
-          width="14.96"
+          width="15.11"
           height="8"
           fill="#df7900"
         />
@@ -178,9 +178,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="246.10000000000002"
+          x="246.1"
           y="0"
-          width="13.9"
+          width="13.89"
           height="8"
           fill="#00ADD8"
         />
@@ -191,14 +191,14 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#f1e05a" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        JavaScript 53.13%
+        JavaScript 53.07%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#71b417" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Game Maker Language 30.17%
+        Game Maker Language 30.19%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
@@ -212,14 +212,14 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#4B6C4B" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Yacc 5.01%
+        Yacc 5.00%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#df7900" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Haxe 1.98%
+        Haxe 2.04%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
