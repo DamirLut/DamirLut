@@ -83,11 +83,8 @@
 
 ## GitHub Stats
 
-<p align="center">
-  <img src="./profile/stats.svg" />
+<p align="center"> 
   <img src="https://streak-stats.demolab.com?user=DamirLut&theme=aura" />
-</p>
-
-<p align="center">
-  <img src="./profile/top-langs.svg" />
+   <br />
+   <img src="./profile/top-langs.svg" />
 </p>
