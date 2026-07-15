@@ -85,6 +85,4 @@
 
 <p align="center"> 
   <img src="https://streak-stats.demolab.com?user=DamirLut&theme=aura" />
-   <br />
-   <img src="./profile/top-langs.svg" />
 </p>
