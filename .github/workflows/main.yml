@@ -13,8 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-        with:
-         token: ${{ secrets.PAT_TOKEN }}
 
       - name: Generate top-langs card
         uses: readme-tools/github-readme-stats-action@v1
